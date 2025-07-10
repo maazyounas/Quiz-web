@@ -1,0 +1,91 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Quiz page layout */
+.quizpage {
+  width: 100%;
+  background: linear-gradient(135deg, black, #333);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizpage p {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
+/* Header section */
+.quizheader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #100b60;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+}
+
+.quizhome {
+  padding: 10px 30px;
+  background-color: #100b60;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.quizhome:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+/* Logo section */
+.quizlogo {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.quizlogo h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+/* Quiz buttons section */
+.quizbtns {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.quizbtns button {
+  cursor: pointer;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #100b60;
+  color: white;
+  border: 2px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.quizbtns button:hover {
+  background-color: rgb(40, 39, 39);
+}

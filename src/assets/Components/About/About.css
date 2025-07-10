@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #dedede;
+}
+
+.aboutpage {
+  width: 100%;
+}
+
+.aboutnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #100b60;
+  color: white;
+  padding: 20px;
+}
+
+/* Separate styles for the button */
+.abouthome button {
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.abouthome button:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+.aboutlogo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.aboutnav h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+/* General content layout */
+.aboutcontent {
+  width: 100%;
+  justify-content: space-between;
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.aboutcontent h1 {
+  color: #100b60;
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 30px;
+}
+
+.rightleft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Make sure content is spaced out */
+}
+
+/* Our Mission section */
+.aboutrightcontent {
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+
+.aboutrightcontent h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.aboutrightcontent span {
+  color: #100b60;
+}
+
+.aboutrightcontent p {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: start;
+}
+
+.aboutleftcontent {
+  width: 50%;
+  text-align: center;
+}
+
+.aboutleftcontent img {
+  width: 60%;
+}
+
+/* Meet the Team section */
+.teaminfo {
+  text-align: center;
+  padding: 50px;
+}
+
+.tophead h2 {
+  margin: 50px;
+  font-size: 45px;
+  font-weight: bolder;
+  color: #100b60;
+}
+
+.member {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.teammember {
+  width: 25%;
+  height: 500px;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.teammember:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.teammember img {
+  margin: 20px;
+  width: 70%;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.teammember h3 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: #100b60;
+}
+
+.teammember p {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+.beforefooter {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 50px;
+  padding: 80px;
+  border-radius: 10px;
+}
+
+.beforefooter h1 {
+  color: #100b60;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.beforefooterleft {
+  text-align: center;
+  width: 90%;
+}
+
+.beforefooterleft h1 {
+  color: black;
+  font-size: 39px;
+  width: 90%;
+}
+
+.beforefooterleft span {
+  color: #100b60;
+}
+
+.beforefooterright {
+  width: 80%;
+  text-align: center;
+}
+
+.beforefooterright img {
+  width: 50%;
+}

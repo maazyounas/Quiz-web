@@ -1,0 +1,276 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  width: 100%;
+  background-color: #dedede;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #100b60;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.links ul {
+  display: flex;
+}
+.links li {
+  list-style: none;
+  margin-left: 50px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: color 0.3s;
+}
+.links a:hover {
+  color: #dedede;
+}
+
+.login {
+  margin-left: 350px;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.login:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+
+
+.firstportion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 50px;
+}
+
+.firstcontent{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.firstcontent h2{
+  color: #100b60;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.firstcontent h1{
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  word-break: break-word;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstcontent span{
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.divider {
+  width: 80%;
+  height: 1px;
+  background-color: #100b60;
+  margin: 20px auto;
+}
+.firstcontent p{
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  word-break: break-word;
+}
+
+.btn{
+  padding: 10px 30px ;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+.btn:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+
+
+.secondportion {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px ;
+}
+.leftcontent {
+  width: 60%;
+  text-align: center;
+}
+.leftcontent:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.content {
+  margin: 50px 50px;
+  height: 50vh;
+}
+.leftcontent h1 {
+  color: #100b60;
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.leftcontent p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.joinus {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.joinus:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+.rightcontent {
+  margin: 50px 50px;
+  width: 50%;
+}
+.rightcontent img {
+  display: flex;
+  width: 70%;
+}
+
+
+
+.thirdportion {
+  text-align: center;
+}
+.thirdportion h1 {
+  color: #100b60;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  padding: 50px 50px;
+}
+
+.topics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+.topic-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.topic-item img {
+  border-radius: 20px;
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  margin: 10px;
+  padding: 10px;
+}
+.topic-item p {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.topic-item p:hover{
+  color: #100b60;
+  font-weight: bold;
+}
+
+.suggest {
+  margin: 50px 50px;
+  padding: 10px 40px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.suggest:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+.fourthportion {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 50px;
+}
+.forthleft {
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.forthleft h1 {
+  color: #100b60;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.forthleft p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.quiz {
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.quiz:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+.forthright {
+  margin: 0px 50px;
+  width: 40%;
+}
+.forthright img {
+  display: flex;
+  width: 40%;
+}
+
