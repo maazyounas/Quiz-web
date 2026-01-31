@@ -24,13 +24,23 @@ const Login = () => {
           </div>
 
           <div className="loginoption">
-            <a href="#">Forget password?</a>
+            <span
+              className="forgotlink"
+              onClick={() => navigate("/forgotpassword")}
+            >
+              Forgot password?
+            </span>
           </div>
+
           <button type="submit" className="loginsubmit">
             Log In
           </button>
           <br />
-          <button className="newacc" onClick={() => navigate("/Signup")}>
+          <button
+            type="button"
+            className="newacc"
+            onClick={() => navigate("/Signup")}
+          >
             Create new account
           </button>
         </form>

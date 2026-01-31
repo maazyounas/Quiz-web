@@ -10,6 +10,7 @@ import Signup from "./assets/Components/Signup/Signup";
 import Footer from "./assets/Components/Footer/Footer";
 import CreateQuiz from "./assets/Components/CreateQuiz/CreateQuiz";
 import HtmlQuiz from "./assets/Components/HtmlQuiz/HtmlQuiz";
+import ForgotPass from "./assets/Components/ForgotPassword/ForgotPass";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/login" element={<Login />} />
+        <Route path="forgotpassword" element={<ForgotPass/>}/>
         <Route path="/signup" element={<Signup />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/createQuiz" element={<CreateQuiz />} />
